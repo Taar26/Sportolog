@@ -1,0 +1,36 @@
+.catalog{
+    display: flex;
+    flex-direction: column;
+}
+.row-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.col-content{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-between;
+    width: 200px;
+    border: 1px solid black;
+}
+.img-content{
+    width: 50%;
+}
+.title-content{
+    font-size: 14px;
+    width: max-content;
+    margin-right: 44%;
+}
+.description-content{
+    font-size: 12px;
+    width: max-content;
+    margin-right: 44%;
+}
+.btn-content{
+    border: none;
+    height: 30px;
+    width: 253.333px;
+    text-align: center;
+}
