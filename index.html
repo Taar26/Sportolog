@@ -225,14 +225,14 @@
             <div class="footer-seperator">
                 <div class="content-lg container">
                     <div class="row">
-                        <div class="col-sm-5 sm-margin-b-30">
+                        <form name="form" action="/php/post.php" method="post" id="form_message" class="col-sm-5 sm-margin-b-30">
                             <h2 class="color-white">Оставте отзыв</h2>
-                            <input type="text" class="form-control footer-input margin-b-20" placeholder="Имя" required>
-                            <input type="email" class="form-control footer-input margin-b-20" placeholder="Электронная почта" required>
-                            <input type="text" class="form-control footer-input margin-b-20" placeholder="Телефон" required>
-                            <textarea class="form-control footer-input margin-b-30" rows="6" placeholder="Сообщение" required></textarea>
-                            <button type="submit" class="btn-theme btn-theme-sm btn-base-bg text-uppercase">Отправить</button>
-                        </div>
+                            <input type="text" class="form-control footer-input margin-b-20" name="name" placeholder="Имя" required>
+                            <input type="email" class="form-control footer-input margin-b-20" name="email" placeholder="Электронная почта" required>
+                            <input type="text" class="form-control footer-input margin-b-20" name="subjects" placeholder="Тема сообщения" required>
+                            <textarea class="form-control footer-input margin-b-30" rows="6" name="message" placeholder="Сообщение" required></textarea>
+                            <button type="submit" id="submit" class="btn-theme btn-theme-sm btn-base-bg text-uppercase">Отправить</button>
+                        </form>
                     </div>
                 </div>
             </div>
